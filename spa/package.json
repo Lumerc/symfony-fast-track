@@ -1,0 +1,27 @@
+{
+  "name": "spa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "encore dev",
+    "dev-server": "encore dev-server",
+    "watch": "encore dev --watch",
+    "build": "encore production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "@symfony/webpack-encore": "^5.3.1",
+    "babel-preset-preact": "^2.0.0",
+    "bootstrap": "^5.3.8",
+    "html-webpack-plugin": "^5.6.5",
+    "preact": "^10.28.1",
+    "preact-router": "^4.1.2",
+    "sass": "^1.97.1",
+    "sass-loader": "^16.0.6"
+  }
+}
